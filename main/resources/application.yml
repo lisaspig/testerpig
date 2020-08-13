@@ -1,0 +1,19 @@
+testpig:
+  reportpath: report
+  imagepath: images
+webdriver:
+  isremot: false
+  url: http://10.1.1.93:5555/wd/hub
+  drivername: CHROME
+  driverpath: webdrivers
+  capabilityType:
+    SUPPORTS_JAVASCRIPT: true
+
+testng:
+  retrycont: 2
+  asserttimeout: 10
+logging:
+  file:
+    path: logs
+    name: seleniumtest.log
+
